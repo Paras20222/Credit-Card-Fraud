@@ -1,26 +1,18 @@
 # Credit Card Fraud Detection
 
-This repository contains code for a Credit Card Fraud Detection project. The project uses machine learning techniques to identify fraudulent transactions from credit card transaction data.
+## Overview
 
-## Table of Contents
+This repository contains the implementation of a **Credit Card Fraud Detection** system using **Machine Learning** techniques. The project focuses on identifying fraudulent transactions to enhance financial security and minimize losses.
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Training](#model-training)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+## Features
 
-## Introduction
-
-Credit card fraud detection is a vital task in the finance industry to prevent losses and protect customers. This project aims to build a model that can accurately detect fraudulent transactions from a dataset of credit card transactions.
+- **Fraud Detection:** Uses advanced ML algorithms to detect fraudulent transactions with high accuracy.
+- **Anomaly Detection:** Implements clustering and outlier detection methods for robust fraud detection.
+- **Multiple Models:** Utilizes **Random Forest, Local Outlier Factor, Decision Trees, KMeans, and DBSCAN**.
+- **High Accuracy:** Achieved **99.74% accuracy** with Random Forest and **99.65% accuracy** with Local Outlier Factor.
+- **Scalable & Efficient:** Trained on large datasets to ensure optimal performance in real-world scenarios.
 
 ## Installation
 
-To run this project, you'll need to have Python and several libraries installed. You can install the required libraries using pip:
+Ensure you have Python installed:
 
-```bash
-pip install -r requirements.txt
